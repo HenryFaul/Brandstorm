@@ -31,7 +31,7 @@ export default () => {
           className="mt-8 overflow-hidden bg-white rounded-lg shadow-xl"
         >
           <div className="px-10 py-12">
-            <h1 className="text-3xl font-bold text-center">Welcome Back!</h1>
+            <h1 className="text-3xl font-bold text-center">Welcome Back Chucky!</h1>
             <div className="w-24 mx-auto mt-6 border-b-2" />
             <TextInput
               className="mt-10"
