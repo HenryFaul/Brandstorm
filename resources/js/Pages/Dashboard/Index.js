@@ -1,10 +1,12 @@
 import React from 'react';
 import { InertiaLink } from '@inertiajs/inertia-react';
 import Layout from '@/Shared/Layout';
+import {Helmet} from "react-helmet/es/Helmet";
 
 const Dashboard = () => {
   return (
     <div>
+      <Helmet title="Dashboard | Brandstorm"/>
       <h1 className="mb-8 text-3xl font-bold">Dashboard</h1>
       <p className="mb-12 leading-normal">
         Hey there! Welcome to Ping CRM, a demo app designed to help illustrate
@@ -25,10 +27,10 @@ const Dashboard = () => {
         .
       </p>
       <div>
-        <InertiaLink className="mr-1 btn-indigo" href="/500">
+        <InertiaLink className="mr-1 btn-blue" href="/500">
           500 error
         </InertiaLink>
-        <InertiaLink className="btn-indigo" href="/404">
+        <InertiaLink className="btn-blue" href="/404">
           404 error
         </InertiaLink>
       </div>

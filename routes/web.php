@@ -12,6 +12,8 @@
 */
 
 // Auth
+use Inertia\Inertia;
+
 Route::get('login')->name('login')->uses('Auth\LoginController@showLoginForm')->middleware('guest');
 Route::post('login')->name('login.attempt')->uses('Auth\LoginController@login')->middleware('guest');
 Route::post('logout')->name('logout')->uses('Auth\LoginController@logout');
@@ -55,4 +57,15 @@ Route::get('reports')->name('reports')->uses('ReportsController')->middleware('a
 // 500 error
 Route::get('500', function () {
     echo $fail;
+});
+
+//about and contact
+Route::get('/about', function (){
+    return Inertia::render("About", [
+    ]);
+});
+
+Route::get('/contact', function (){
+    return Inertia::render('Contact', [
+    ]);
 });

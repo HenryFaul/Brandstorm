@@ -1,5 +1,4 @@
 import React from 'react';
-import { Inertia } from '@inertiajs/inertia';
 import { InertiaLink, usePage, useForm } from '@inertiajs/inertia-react';
 import Layout from '@/Shared/Layout';
 import LoadingButton from '@/Shared/LoadingButton';
@@ -142,7 +141,7 @@ const Create = () => {
             <LoadingButton
               loading={processing}
               type="submit"
-              className="btn-indigo"
+              className="btn-blue"
             >
               Create Contact
             </LoadingButton>

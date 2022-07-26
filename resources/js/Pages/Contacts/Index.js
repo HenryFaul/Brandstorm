@@ -17,7 +17,7 @@ const Index = () => {
       <div className="flex items-center justify-between mb-6">
         <SearchFilter />
         <InertiaLink
-          className="btn-indigo focus:outline-none"
+          className="btn-blue focus:outline-none"
           href={route('contacts.create')}
         >
           <span>Create</span>

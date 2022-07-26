@@ -8,6 +8,12 @@ module.exports = {
 
       black: '#000',
       white: '#fff',
+      light_blue: '#d2e0e7',
+      lighter_blue: '#b5ccd8',
+      dark_blue: '#1976d2',
+      darker_blue: '#377595',
+      medium_blue: '#0391ba',
+      my_gray: '#4B4747',
 
       gray: {
         100: '#f7fafc',
@@ -74,6 +80,28 @@ module.exports = {
         700: '#4c51bf',
         800: '#434190',
         900: '#3c366b'
+      },
+      sky: {
+        100: '#e0f2fe',
+        200: '#bae6fd',
+        300: '#7dd3fc',
+        400: '#38bdf8',
+        500: '#0ea5e9',
+        600: '#0284c7',
+        700: '#0369a1',
+        800: '#075985',
+        900: '#0c4a6e'
+      },
+      blue:{
+        100: '#dbeafe',
+        200: '#bfdbfe',
+        300: '#93c5fd',
+        400: '#60a5fa',
+        500: '#3b82f6',
+        600: '#2563eb',
+        700: '#1d4ed8',
+        800: '#1e40af',
+        900: '#1e3a8a'
       }
     }
   },
